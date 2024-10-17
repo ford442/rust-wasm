@@ -1,6 +1,6 @@
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-pub fngreet(name:&str) -> String {
+pub fn greet(name:&str) -> String {
     format!("Hello,{}",name)
 }
